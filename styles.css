@@ -1,3 +1,7 @@
 header {
     display: block;
   }
+  .flex-container-for-header {
+    display: flex;
+    flex-direction: row;
+  }
