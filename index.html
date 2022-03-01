@@ -10,7 +10,11 @@
 <body>
     <div id="flex-container-for-header">
         <header id="header">
-            <img src="https://img1.freepng.es/20180526/aji/kisspng-magic-the-gathering-duels-of-the-planeswalker-5b0a19bc0f2343.681610961527388604062.jpg" id="header-img" alt="MTG PW logo">
+            <img id="image-logo-header" src="https://mtgproshop.com/wp-content/uploads/2020/10/MTG-PW-Symbol.png"
+            id="header-img"
+            alt="MTG PW logo"
+            width="30"
+            height="60">
             <h1>Magic: The Gathering store page</h1>
             <nav id="nav-bar">
                 <a href="#bestSellers" class="nav-link">Best sellers</a> | 
@@ -20,8 +24,25 @@
         </header>
     </div>
 
-    <div id="bestSellers">
+    <div>
+        <iframe id="video" width="420" height="315" src="https://www.youtube.com/watch?v=7qN25dtBEw0?autoplay=1&mute=1">
+        </iframe>
+        
+    </div>
 
+    <div id="bestSellers">
+        <h3>Best Sellers on <a href="https://www.cardmarket.com/es/Magic" target="_blank">Magic CardMarket</a></h3>
+        <div>
+            <a href="https://www.cardmarket.com/es/Magic/Products/Singles/Kamigawa-Neon-Dynasty/Otawara-Soaring-City" target="_blank">
+                <img src="https://static.cardmarket.com/img/d46062a96d417ae9c0ee64ca9c704bd5/items/1/NEO/607514.jpg" alt="Otawara, Soaring City" width="255" height="361">
+            </a>
+            <a href="https://www.cardmarket.com/es/Magic/Products/Singles/Kamigawa-Neon-Dynasty/Swamp-V2" target="_blank">
+                <img src="https://static.cardmarket.com/img/bf803dcb220d09e30a37ca9ac9e8d832/items/1/NEO/605039.jpg" alt="Otawara, Soaring City" width="255" height="361">
+            </a>
+            <a href="https://www.cardmarket.com/es/Magic/Products/Singles/Kamigawa-Neon-Dynasty/Boseiju-Who-Endures" target="_blank">
+                <img src="https://static.cardmarket.com/img/761c124ab3a21d160060f52fd8da29f0/items/1/NEO/607040.jpg" alt="Otawara, Soaring City" width="255" height="361">
+            </a>
+        </div>
     </div>
 
     <div id="bestBargains">
@@ -30,6 +51,13 @@
 
     <div id="aboutUs">
 
+    </div>
+
+    <div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" id="email" name="email" placeholder="email" required>
+            <input type="submit" id="submit" value="Submit">
+        </form>
     </div>
     
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
