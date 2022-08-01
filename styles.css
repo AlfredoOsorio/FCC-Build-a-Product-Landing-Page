@@ -3,10 +3,6 @@ body{
   grid-template-columns: 1fr;
   grid-template-rows: 1em 1fr;
   grid-gap: 10px;
-  grid-template-areas:
-  "header header"
-  "video bestSellers"
-  "form form";
 }
   #header {
   display: flex;
@@ -52,20 +48,8 @@ body{
   height: 50px;
 }
 
-/* @media (min-width: 300px){
-  body{
-    grid-template-columns: auto 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas:
-      "header"
-      "video"
-      "bestSellers"
-      "form";
-  }
-} */
-
 @media screen and (max-width: 600px) {
-  #bestSellers {
+  #aboutUs {
     background-color: lightblue;
   }
 }
