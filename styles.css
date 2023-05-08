@@ -4,7 +4,8 @@ body{
   grid-template-rows: 1em 1fr;
   grid-gap: 10px;
 }
-  #header {
+
+#header {
   display: flex;
   justify-content: space-between;
   position: fixed;
